@@ -12,7 +12,7 @@ email: deepakvictor7585@gmail.com
 # email_title: Email (Email title override)
 phone: 9514429905
 # phone_title: Phone (Phone title override)
-website: https://github.com/devic1.github.io
+website: https://devic1.github.io/
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -61,20 +61,90 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: Moviesense
+        link: https://moviesense.mooo.com # (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Website Link
         quote: >
-          Short overview of the project (optional)
+          An Ai system that suggests movies related to the given prompt. this system returns results from 4 lakh movies in milliseconds in a 1GB RAM system.
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          This project is built using customized sentence transformers. nearly 4 lakh movies are optimized embedded and stored in a vector database. this system is hosted in a docker service in AWS free ec2 instance of 1GB ram. systems more than 4GB ram can run a higher accuracy ouput with rag implementation. 
+      - layout: left
+        border: weak
+
+        title: Tamil Bert 
+        link: https://huggingface.co/Deepakvictor/tamil_bs_bert # (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Model link
+        quote: >
+          this model is a bert model trained as Masked language modelling task which can be used for many tasks like clasification, named entity recognition etc.
+        description: | # this will include new lines to allow paragraphs
+          The model and the tokenizer is trained from scratch for the language tamil. this model is trained with 10.6 Million tamil sentences on a p100 for 18 hrs resulting in a better evaluation score for other tasks.
+
+      - layout: left
+        border: weak
+
+        title: NERF
+        link: https://github.com/devic1/Nerf_pytorch_scratch # (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Github link
+        quote: >
+          nerf Neural radiance field is a technology that converts a bunch of 2D images to 3D model.
+        description: | # this will include new lines to allow paragraphs
+          using the original implementation in tensorflow i reassembled the code for pytorch. this allows to use customized features that pytorch offers.
+
+      - layout: left
+        border: weak
+
+        title: SVCE-BUS
+        #link: https://github.com/devic1/Nerf_pytorch_scratch # (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Private 
+        quote: >
+          a progressive web app which tracks the location of the college bus without the help of gps
+        description: | # this will include new lines to allow paragraphs
+          this webapp is developed on react js and django uses the drivers mobile to track the drivers location and sents the coordinates to the students. this uses leaflet open source map framework to display the coordinates. this system was professional with security features and login systems.
+      
+      - layout: left
+        border: weak
+
+        title: OCR_From_Scratch
+        link: https://github.com/devic1/Tamil_OCR_system # (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Github Link
+        quote: >
+          OCR for language tamil
+        description: | # this will include new lines to allow paragraphs
+          Optical Character Recognition (OCR) is the technology that allows the conversion of printed or handwritten text into digital text. It has been widely used for various applications, including language translation, text mining, and document digitization. Tamil OCR specifically focuses on recognizing and extracting text from documents written in the Tamil language.
+
+      - layout: left
+        border: weak
+
+        title: FACIT
+        link: https://faceit-c70b7.web.app/ # (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: webapp 
+        quote: >
+          A simple classification system that classifies gender based on the image
+        description: | # this will include new lines to allow paragraphs
+          Developed on convolutional layers with the data scrapped from google images
+
+      - layout: left
+        border: weak
+
+        title: Obscene Detector
+        #link: https://github.com/devic1/Tamil_OCR_system # (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: Github Link
+        quote: >
+          Obscene detector that detects NSFW image
+        description: | # this will include new lines to allow paragraphs
+          this system uses masktransformer to detect the human outline of the image and then uses a classification model to classify. 
+      
+      - layout: left
+        border: weak
+
+        title: wikipedia datascrapping
+        #link: https://github.com/devic1/Tamil_OCR_system # (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: Github Link
+        quote: >
+          Scrapped 36000 movies plot and 2000 songs from various websites including wikipedia
+        description: | # this will include new lines to allow paragraphs
+          gained experience by datascrapping many websites for self supervised training
+
   - title: Experience
     layout: list
     content:
