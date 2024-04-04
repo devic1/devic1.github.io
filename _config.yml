@@ -35,8 +35,11 @@ linkedin_username: deepak-victor-67040b262
 
 # Additional icon links
 additional_links:
+- title: LeetCode
+  icon: fa fa-code #Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  url: https://leetcode.com/deepakvictor123/
 - title: Huggingface
-  icon: fab fa-user-secret #Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  icon: fa fa-robot #Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
   url: https://huggingface.co/Deepakvictor
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
@@ -55,12 +58,56 @@ about_content: | # this will include new lines to allow paragraphs
   Passionate about developing deep neural networks for computer vision and natural language processing with a focus on researching and fine-tuning state-of-the-art models for unstructured data. 
 
 content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Rapid acceleration partners
+        sub_title: Machine learning intern
+        caption: July 2023 - Jan2024
+        link: https://www.linkedin.com/company/rapid-acceleration-partners/
+        quote: >
+          Practical AI Solutions for Digital Business Transformation.
+        description: | # this will include new lines to allow paragraphs
+          worked as a Machine learning engineer intern on hyper-automation by processing unstructured data with artificial intelligence. Fine-tuned real-time document data using state-of-the-art language models, such as Phi-2 3B and Starling-lm 7B.Worked on visual language models, document extraction and object detection.
+
+      - layout: right
+        title: Trycom AI
+        sub_title: Machine learning intern
+        caption: Jan 2024 - present
+        link: https://trycom.ai/
+        quote: >
+          TRYCOM AI : Simplifying content marketing with AI precision.
+        description: | # this will include new lines to allow paragraphs
+          As a Machine Learning Engineer intern, I focus on automating branded and personalized content creation by fine-tuning LLMs for specific tasks, ensuring content is human-like and SEO optimized.Also i work on the process of Converting these deep learning models to onnxruntime and implementing,integrating,dockerizing and deploying these codes.  
+  
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
+        
+        title: Techbytes AI
+        link: https://www.instagram.com/techbytes.ai_/ # (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Instagram Page
+        quote: >
+          An Ai Bot that Tracks the Recent information (For every six hours) about a given Topic and Creates a Insta or Fb or Twitter Post with Image and uploads it using the Platforms API. 
+        description: | # this will include new lines to allow paragraphs
+          This project is right now hosted on ec2 and implemented with the help of Groq, Perpleixity discover (right now), Scrapeops API's. The post are created using a smart Image-Text embedding program.The live demo for this project is running successfully on techbytes insta page.These posts are uploaded for every six hours using instagrams content publishing API with AI summarized content and hashtags. 
+      - layout: left
+        border: weak
+
+        title: Perplexity Clone
+        link: https://github.com/devic1/perplexity_ai/tree/main/perplexity_ai # (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Github page
+        quote: >
+          Perplexity Clone that could use Groq's LPU power and could work as your Upto date knowledged AI assistant 
+        description: | # this will include new lines to allow paragraphs
+          This project Focuses on scraping the top google results or you Brave's search api to get top results and by Scraping the Articles we could provide the LLM recent knowledge about things happening and can be questioned about recent incidents.Groq API is being used for LLM inference and Nomic embedding is used for RAG implementations. Qdrant vector database is used to store the vector embeddings and retrieve it faster. 
+      - layout: left
+        border: weak
+
         title: Moviesense
         link: https://moviesense.mooo.com # (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Website Link
@@ -145,18 +192,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           gained experience by datascrapping many websites for self supervised training
 
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Rapid acceleration partners
-        sub_title: Machine learning intern
-        caption: July 2023 - present
-        link: https://www.linkedin.com/company/rapid-acceleration-partners/
-        quote: >
-          Practical AI Solutions for Digital Business Transformation.
-        description: | # this will include new lines to allow paragraphs
-          worked as a Machine learning engineer intern on hyper-automation by processing unstructured data with artificial intelligence. Fine-tuned real-time document data using state-of-the-art language models, such as Phi-2 3B and Starling-lm 7B.Worked on visual language models, document extraction and object detection.
   - title: Education
     layout: list
     content:
@@ -171,8 +206,10 @@ content:
     content: | # this will include new lines to allow paragraphs
       i like to watch movies a lot and play lots of games. this stage developed my interest towards computers. within a short period of time i tried all the skills that are related to computers.developing games, cybersecurity, web development, blockchain, automation which ended up on developing neural networks to solve real word problems.
 
+
+  
 # Footer
-footer_show_references: true
+#footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
