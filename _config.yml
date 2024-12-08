@@ -69,7 +69,7 @@ content:
         quote: >
           Practical AI Solutions for Digital Business Transformation.
         description: | # this will include new lines to allow paragraphs
-          worked as a Machine learning engineer intern on hyper-automation by processing unstructured data with artificial intelligence. Fine-tuned real-time document data using large language models, such as Phi-2 3B and Starling-lm 7B.Worked on visual language models, document extraction and object detection.
+          worked as a Machine learning engineer intern on hyper-automation by processing unstructured data with artificial intelligence. Fine-tuned real-time document data using large language models, such as Phi-2 and Mistral.Worked on visual language models, document extraction and object detection.
 
       - layout: right
         title: Trycom AI
