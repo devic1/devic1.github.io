@@ -69,17 +69,17 @@ content:
         quote: >
           Practical AI Solutions for Digital Business Transformation.
         description: | # this will include new lines to allow paragraphs
-          worked as a Machine learning engineer intern on hyper-automation by processing unstructured data with artificial intelligence. Fine-tuned real-time document data using state-of-the-art language models, such as Phi-2 3B and Starling-lm 7B.Worked on visual language models, document extraction and object detection.
+          worked as a Machine learning engineer intern on hyper-automation by processing unstructured data with artificial intelligence. Fine-tuned real-time document data using large language models, such as Phi-2 3B and Starling-lm 7B.Worked on visual language models, document extraction and object detection.
 
       - layout: right
         title: Trycom AI
-        sub_title: Machine learning intern
+        sub_title: Machine learning Engineer
         caption: Jan 2024 - present
         link: https://trycom.ai/
         quote: >
           TRYCOM AI : Simplifying content marketing with AI precision.
         description: | # this will include new lines to allow paragraphs
-          As a Machine Learning Engineer intern, I focus on automating branded and personalized content creation by fine-tuning LLMs for specific tasks, ensuring content is human-like and SEO optimized.Also i work on the process of Converting these deep learning models to onnxruntime and implementing,integrating,dockerizing and deploying these codes.  
+          As a Machine Learning Engineer , I focus on automating branded and personalized content creation by fine-tuning LLMs for specific tasks, ensuring content is human-like and SEO optimized.Also i work on the process of Converting these deep learning models to onnxruntime and implementing,integrating,dockerizing and deploying these codes.  
   
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
