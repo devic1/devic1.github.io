@@ -20,7 +20,7 @@ darkmode: never
 
 # Social links
 #twitter_username: jekyllrb
-github_username:  devic1
+github_username: devic1
 #stackoverflow_username: "00000001"
 #dribbble_username: jekyll
 #facebook_username: jekyll
@@ -35,12 +35,12 @@ linkedin_username: deepak-victor
 
 # Additional icon links
 additional_links:
-- title: LeetCode
-  icon: fab fa-leetcode #Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: https://leetcode.com/deepakvictor123/
-- title: Huggingface
-  icon: fab fa-hugging-face #Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: https://huggingface.co/Deepakvictor
+  - title: LeetCode
+    icon: fab fa-leetcode #Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+    url: https://leetcode.com/deepakvictor123/
+  - title: Huggingface
+    icon: fab fa-hugging-face #Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+    url: https://huggingface.co/Deepakvictor
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -55,46 +55,58 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: /images/profile.jpeg # Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Passionate about developing deep neural networks for computer vision and natural language processing with a focus on researching and fine-tuning state-of-the-art models for unstructured data. 
+  Machine Learning Engineer specializing in LLM systems, RAG pipelines, and on-prem model deployment.
+  Experienced in building production-grade AI agents and optimizing large models for real-time enterprise use.
 
 content:
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Rapid acceleration partners
-        sub_title: Machine learning intern
-        caption: July 2023 - Jan2024
+        title: Rapid Acceleration Partners
+        sub_title: Machine learning Engineer - Intern
+        caption: Jul 2023 – Jan 2024
         link: https://www.linkedin.com/company/rapid-acceleration-partners/
         quote: >
           Practical AI Solutions for Digital Business Transformation.
         description: | # this will include new lines to allow paragraphs
-          worked as a Machine learning engineer intern on hyper-automation by processing unstructured data with artificial intelligence. Fine-tuned real-time document data using large language models, such as Phi-2 and Mistral.Worked on visual language models, document extraction and object detection.
+          Fine-tuned LLMs (Mistral) and visual language models for real-time document extraction, object detection, and structured data generation from unstructured enterprise data. Built hyper-automation pipelines integrating LLM inference with backend systems for AI-driven document workflows.
 
       - layout: right
-        title: Trycom AI
+        title: Trycom.ai
         sub_title: Machine learning Engineer
-        caption: Jan 2024 - present
-        link: https://trycom.ai/
+        caption: Jan 2024 – Mar 2025
+        link: https://www.linkedin.com/company/trycom/posts/?feedView=all
         quote: >
           TRYCOM AI : Simplifying content marketing with AI precision.
         description: | # this will include new lines to allow paragraphs
-          As a Machine Learning Engineer , I focus on automating branded and personalized content creation by fine-tuning LLMs for specific tasks, ensuring content is human-like and SEO optimized.Also i work on the process of Converting these deep learning models to onnxruntime and implementing,integrating,dockerizing and deploying these codes.  
-  
+          Built AI content automation pipelines including real-time image generation, blog/post creation with humanized text, web scraping for knowledge augmentation, LLM caching, and internal Streamlit tooling. Fine-tuned and converted BERT-based spam classifiers to ONNX for low-latency real-time inference in production. Owned the backend ML platform: managed Docker deployments, MongoDB-based LLM credit tracking, Redis caching, Celery queues, and GitHub PR reviews with code refactoring. Implemented Langfuse for LLM observability and optimized inference via structured outputs, prompt tuning, and refactored local Mistral pipelines for improved performance.
+
+      - layout: right
+        title: Stratforge
+        sub_title: Machine learning Engineer
+        caption: Mar 2025 – Present
+        link: https://www.linkedin.com/company/stratforge/
+        quote: >
+          Breakthrough AI-human integration for enterprise transformation.
+        description: | # this will include new lines to allow paragraphs
+          Built RAG pipelines with document extraction and Agentic RAG using MCP, ReAct agents, and LLM APIs. Developed LLM-based AI agents and real-time voice agents using MCP and LiveKit. Deployed and optimized on-prem LLMs using vLLM, including custom kernel-level performance tuning. Tuned LLM prompts, developed custom machine learning statistical models, and deployed services using Docker and FastAPI endpoints.
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        
+        border:
+          weak # Value of `weak` will display a weak border below this item. # Any
+          # other value (or no value) means no border will be displayed
+
         title: Techbytes AI
         link: https://www.instagram.com/techbytes.ai_/ # (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Instagram Page
         quote: >
-          An Ai Bot that Tracks the Recent information (For every six hours) about a given Topic and Creates a Insta or Fb or Twitter Post with Image and uploads it using the Platforms API. 
+          An Ai Bot that Tracks the Recent information (For every six hours) about a given Topic and Creates a Insta or Fb or Twitter Post with Image and uploads it using the Platforms API.
         description: | # this will include new lines to allow paragraphs
-          This project is right now hosted on ec2 and implemented with the help of Groq, Perpleixity discover (right now), Scrapeops API's. The post are created using a smart Image-Text embedding program.The live demo for this project is running successfully on techbytes insta page.These posts are uploaded for every six hours using instagrams content publishing API with AI summarized content and hashtags. 
+          This project is right now hosted on ec2 and implemented with the help of Groq, Perpleixity discover (right now), Scrapeops API's. The post are created using a smart Image-Text embedding program.The live demo for this project is running successfully on techbytes insta page.These posts are uploaded for every six hours using instagrams content publishing API with AI summarized content and hashtags.
       - layout: left
         border: weak
 
@@ -102,9 +114,9 @@ content:
         link: https://github.com/devic1/perplexity_ai/tree/main/perplexity_ai # (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Github page
         quote: >
-          Perplexity Clone that could use Groq's LPU power and could work as your Upto date knowledged AI assistant 
+          Perplexity Clone that could use Groq's LPU power and could work as your Upto date knowledged AI assistant
         description: | # this will include new lines to allow paragraphs
-          This project Focuses on scraping the top google results or you Brave's search api to get top results and by Scraping the Articles we could provide the LLM recent knowledge about things happening and can be questioned about recent incidents.Groq API is being used for LLM inference and Nomic embedding is used for RAG implementations. Qdrant vector database is used to store the vector embeddings and retrieve it faster. 
+          This project Focuses on scraping the top google results or you Brave's search api to get top results and by Scraping the Articles we could provide the LLM recent knowledge about things happening and can be questioned about recent incidents.Groq API is being used for LLM inference and Nomic embedding is used for RAG implementations. Qdrant vector database is used to store the vector embeddings and retrieve it faster.
       - layout: left
         border: weak
 
@@ -114,11 +126,11 @@ content:
         quote: >
           An Ai system that suggests movies related to the given prompt. this system returns results from 4 lakh movies in milliseconds in a 1GB RAM system.
         description: | # this will include new lines to allow paragraphs
-          This project is built using customized sentence transformers. nearly 4 lakh movies are optimized embedded and stored in a vector database. this system is hosted in a docker service in AWS free ec2 instance of 1GB ram. systems more than 4GB ram can run a higher accuracy ouput with rag implementation. 
+          This project is built using customized sentence transformers. nearly 4 lakh movies are optimized embedded and stored in a vector database. this system is hosted in a docker service in AWS free ec2 instance of 1GB ram. systems more than 4GB ram can run a higher accuracy ouput with rag implementation.
       - layout: left
         border: weak
 
-        title: Tamil Bert 
+        title: Tamil Bert
         link: https://huggingface.co/Deepakvictor/tamil_bs_bert # (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Model link
         quote: >
@@ -142,12 +154,12 @@ content:
 
         title: SVCE-BUS
         #link: https://github.com/devic1/Nerf_pytorch_scratch # (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Private 
+        link_text: Private
         quote: >
           a progressive web app which tracks the location of the college bus without the help of gps
         description: | # this will include new lines to allow paragraphs
           this webapp is developed on react js and django uses the drivers mobile to track the drivers location and sents the coordinates to the students. this uses leaflet open source map framework to display the coordinates. this system was professional with security features and login systems.
-      
+
       - layout: left
         border: weak
 
@@ -164,7 +176,7 @@ content:
 
         title: FACIT
         link: https://faceit-c70b7.web.app/ # (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: webapp 
+        link_text: webapp
         quote: >
           A simple classification system that classifies gender based on the image
         description: | # this will include new lines to allow paragraphs
@@ -179,8 +191,8 @@ content:
         quote: >
           Obscene detector that detects NSFW image
         description: | # this will include new lines to allow paragraphs
-          this system uses masktransformer to detect the human outline of the image and then uses a classification model to classify. 
-      
+          this system uses masktransformer to detect the human outline of the image and then uses a classification model to classify.
+
       - layout: left
         border: weak
 
@@ -201,10 +213,7 @@ content:
         caption: 2020 - 2024
         description: | # this will include new lines to allow paragraphs
           Pursued my degree on artificial intelligence and data science with a CGPA of 8.59. Devloped interest on deep neural networks and data processing here.
-  
 
-
-  
 # Footer
 #footer_show_references: true
 # references_title: References on request (Override references text)
@@ -218,17 +227,18 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
   ]

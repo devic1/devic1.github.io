@@ -2,4 +2,30 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-@import 'modern-resume-theme';
+@import "modern-resume-theme";
+
+/* Custom Icon Overrides for LeetCode and HuggingFace */
+.fa-leetcode::before,
+.fa-hugging-face::before {
+  content: "" !important;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-color: currentColor; /* Inherit text color */
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+.fa-leetcode::before {
+  -webkit-mask-image: url('{{ "/assets/images/leetcode.svg" | relative_url }}');
+  mask-image: url('{{ "/assets/images/leetcode.svg" | relative_url }}');
+}
+
+.fa-hugging-face::before {
+  -webkit-mask-image: url('{{ "/assets/images/huggingface.svg" | relative_url }}');
+  mask-image: url('{{ "/assets/images/huggingface.svg" | relative_url }}');
+}
