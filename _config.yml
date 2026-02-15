@@ -214,6 +214,25 @@ content:
         description: | # this will include new lines to allow paragraphs
           Pursued my degree on artificial intelligence and data science with a CGPA of 8.59. Devloped interest on deep neural networks and data processing here.
 
+  - title: Skills
+    layout: list
+    content:
+      - layout: left
+        title: Programming Languages
+        description: Python, C/C++, JavaScript, SQL, HTML, CSS, Bash/Shell
+
+      - layout: left
+        title: AI & Machine Learning
+        description: PyTorch, TensorFlow, Transformers, LLMs (Fine-tuning, RAG, Agents), vLLM, llama-cpp, LangChain, LangGraph, Langfuse, MCP, ONNX, BERT, Computer Vision, NLP, Scikit-learn, NumPy, Pandas, Matplotlib, Seaborn, OpenCV, Groq SDK, Nomic Embeddings
+
+      - layout: left
+        title: Web & Backend Development
+        description: FastAPI, Flask, Django, React.js, Streamlit, LiveKit, Celery, Leaflet.js
+
+      - layout: left
+        title: Databases, Cloud & Tools
+        description: MySQL, MongoDB, Redis, Qdrant (Vector DB), Docker, AWS (EC2), GCP, Git, GitHub Actions, Linux, Jupyter, Selenium, BeautifulSoup, ScrapeOps API
+
 # Footer
 #footer_show_references: true
 # references_title: References on request (Override references text)
