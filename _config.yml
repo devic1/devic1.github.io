@@ -26,7 +26,7 @@ github_username:  devic1
 #facebook_username: jekyll
 #flickr_username: jekyll
 #instagram_username: jekyll
-linkedin_username: deepak-victor-67040b262
+linkedin_username: deepak-victor
 #xing_username: jekyll
 #pinterest_username: jekyll
 #youtube_username: jekyll
@@ -36,7 +36,7 @@ linkedin_username: deepak-victor-67040b262
 # Additional icon links
 additional_links:
 - title: LeetCode
-  icon: fa fa-code #Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  icon: fa fa-leetcode #Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
   url: https://leetcode.com/deepakvictor123/
 - title: Huggingface
   icon: fa fa-robot #Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
@@ -201,10 +201,7 @@ content:
         caption: 2020 - 2024
         description: | # this will include new lines to allow paragraphs
           Pursued my degree on artificial intelligence and data science with a CGPA of 8.59. Devloped interest on deep neural networks and data processing here.
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      i like to watch movies a lot and play lots of games. this stage developed my interest towards computers. within a short period of time i tried all the skills that are related to computers.developing games, cybersecurity, web development, blockchain, automation which ended up on developing neural networks to solve real word problems.
+  
 
 
   
