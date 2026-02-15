@@ -76,7 +76,7 @@ content:
         title: Trycom.ai
         sub_title: Machine learning Engineer
         caption: Jan 2024 – Mar 2025
-        link: https://www.linkedin.com/company/trycom/posts/?feedView=all
+        link: https://www.linkedin.com/company/trycom/
         quote: >
           TRYCOM AI : Simplifying content marketing with AI precision.
         description: | # this will include new lines to allow paragraphs
@@ -213,6 +213,19 @@ content:
         caption: 2020 - 2024
         description: | # this will include new lines to allow paragraphs
           Pursued my degree on artificial intelligence and data science with a CGPA of 8.59. Devloped interest on deep neural networks and data processing here.
+
+  - title: Achievements
+    layout: list
+    content:
+      - layout: left
+        title: Analytics Showdown
+        description: Awarded first place in "ANALYTICS SHOWDOWN", a data analytics competition hosted by KNOW-I.
+
+      - layout: left
+        title: LeetCode Profile
+        link: https://leetcode.com/deepakvictor123/
+        link_text: Profile Link
+        description: Completed 800+ LeetCode problems including 120+ Hard, maintaining a 686-day coding streak.
 
   - title: Skills
     layout: list
